@@ -9,7 +9,7 @@ tellraw @s [{"text": ""}]
 
 # [/trigger ps_create]:
 tellraw @s [{"text": "/trigger ps_create ", "color": "yellow"}]
-tellraw @s [{"text": "Creates a shop linked to players UUID. \n", "color": "gray"}]
+tellraw @s [{"text": "Creates a shop linked to players UUID. Be sure your holding a chest \n", "color": "gray"}]
 
 # [/trigger ps_remove]:
 tellraw @s [{"text": "/trigger ps_remove ", "color": "yellow"}]

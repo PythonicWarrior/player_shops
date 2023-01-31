@@ -1,5 +1,6 @@
 # Created Shop Message:
 tellraw @s [{"text": "Succesfully Created Shop!", "color": "green"}]
+clear @s minecraft:chest 1
 
 # WEST
 execute as @s[y_rotation=-135..-45] run setblock ~ ~ ~ minecraft:chest[facing=west]

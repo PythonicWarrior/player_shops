@@ -2,6 +2,10 @@
 execute as @a at @s[team=ps_admin] run scoreboard players enable @s adminps_create
 execute as @a at @s[team=ps_admin] run scoreboard players enable @s adminps_remove
 
+# Admin Disable Commands:
+execute as @a at @s[team=!ps_admin] run scoreboard players reset @s adminps_create
+execute as @a at @s[team=!ps_admin] run scoreboard players reset @s adminps_remove
+
 # Admin Commands:
 execute as @a at @s[team=ps_admin,scores={adminps_create=1..}] run function admin_shop:commands/create_shop
 execute as @a at @s[team=ps_admin,scores={adminps_remove=1..}] run function admin_shop:commands/remove_shop

@@ -20,7 +20,7 @@ execute as @a at @s store result score @s ps_owner run data get entity @s UUID[0
 ########################################################################################
 # Commands #
 ########################################################################################
-execute as @a at @s[scores={ps_create=1}] run function player_shop:commands/create_shop
+execute as @a at @s[scores={ps_create=1}, nbt={SelectedItem:{id:"minecraft:chest"}}] run function player_shop:commands/create_shop
 execute as @a at @s[scores={ps_remove=1}] run function player_shop:commands/remove_shop
 execute as @a at @s[scores={ps_icon=1}] run function player_shop:commands/icon
 execute as @a at @s[scores={ps_job=1..}] run function player_shop:commands/job

@@ -3,6 +3,7 @@ execute as @a at @s run execute as @e[type=minecraft:villager,tag=player_shop,di
 
 # Remove Player's Shop:
 execute as @a at @s run execute as @e[type=minecraft:villager,tag=player_shop,distance=0..2] at @s if score @p ps_owner = @s ps_id run tellraw @p [{"text": "Shop Removed!", "color": "green"}]
+execute as @a at @s run execute as @e[type=minecraft:villager,tag=player_shop,distance=0..2] at @s if score @p ps_owner = @s ps_id run fill ^ ^-1 ^ ^ ^-1 ^1 air
 execute as @a at @s run execute as @e[type=minecraft:villager,tag=player_shop,distance=0..2] at @s if score @p ps_owner = @s ps_id run kill @s
 
 # Reset Command:
