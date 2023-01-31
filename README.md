@@ -1,6 +1,7 @@
 <h2>Mr_Chibi's Player's Shops</h2>
 <ul>
 <li>Mr_Chibi's Player Shops is a minecraft datapack!</li>
+<li>I patched a infinite chest exploit and plan to add more features and patches soon</li>
 <li>It's Singleplayer & Multiplayer Friendly!</li>
 <li>Players can create shops using chest GUI and receive block, item and misc from secondary chest that spawns underneath the villager chest.</li>
 </ul>
